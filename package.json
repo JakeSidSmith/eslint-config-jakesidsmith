@@ -1,0 +1,37 @@
+{
+  "name": "eslintrc",
+  "version": "0.0.0",
+  "description": "A collection of my common eslint configurations",
+  "main": "index.js",
+  "scripts": {
+    "test-base": "jsonlint -q .eslintrc-base",
+    "test-react-base": "jsonlint -q .eslintrc-react-base",
+    "test-es5": "jsonlint -q .eslintrc-es5 && eslint -c .eslintrc-es5 test-files/es5.js",
+    "test-es6": "jsonlint -q .eslintrc-es6 && eslint -c .eslintrc-es6 test-files/es6.js",
+    "test-es5-react": "jsonlint -q .eslintrc-es5-react && eslint -c .eslintrc-es5-react test-files/es5-react.js",
+    "test-es6-react": "jsonlint -q .eslintrc-es6-react && eslint -c .eslintrc-es6-react test-files/es6-react.js",
+    "test": "npm run test-base && npm run test-react-base && npm run test-es5 && npm run test-es6 && npm run test-es5-react && npm run test-es6-react"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakesidsmith/eslintrc.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "es5"
+  ],
+  "author": "Jake 'Sid' Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakesidsmith/eslintrc/issues"
+  },
+  "homepage": "https://github.com/jakesidsmith/eslintrc#readme",
+  "dependencies": {
+    "eslint": "=2.8.0",
+    "eslint-plugin-react": "=5.0.1"
+  },
+  "devDependencies": {
+    "jsonlint": "=1.6.2"
+  }
+}

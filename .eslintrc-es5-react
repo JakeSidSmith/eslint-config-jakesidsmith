@@ -1,0 +1,6 @@
+{
+  "extends": [
+    ".eslintrc-base",
+    ".eslintrc-react-base"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "extends": ".eslintrc-base",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "arrow-parens": [
+      2,
+      "always"
+    ]
+  }
+}
