@@ -1,0 +1,7 @@
+{
+  "extends": [
+    ".eslintrc-es5",
+    ".eslintrc-react-base",
+    ".eslintrc-mocha-base"
+  ]
+}

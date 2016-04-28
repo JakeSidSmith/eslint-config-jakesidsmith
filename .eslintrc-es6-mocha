@@ -1,0 +1,6 @@
+{
+  "extends": [
+    ".eslintrc-es6",
+    ".eslintrc-mocha-base"
+  ]
+}

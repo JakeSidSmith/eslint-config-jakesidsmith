@@ -10,7 +10,11 @@
     "test-es6": "jsonlint -q .eslintrc-es6 && eslint -c .eslintrc-es6 test-files/es6.js",
     "test-es5-react": "jsonlint -q .eslintrc-es5-react && eslint -c .eslintrc-es5-react test-files/es5-react.js",
     "test-es6-react": "jsonlint -q .eslintrc-es6-react && eslint -c .eslintrc-es6-react test-files/es6-react.js",
-    "test": "npm run test-base && npm run test-react-base && npm run test-es5 && npm run test-es6 && npm run test-es5-react && npm run test-es6-react"
+    "test-es5-mocha": "jsonlint -q .eslintrc-es5-mocha && eslint -c .eslintrc-es5-mocha test-files/es5-mocha.js",
+    "test-es6-mocha": "jsonlint -q .eslintrc-es6-mocha && eslint -c .eslintrc-es6-mocha test-files/es6-mocha.js",
+    "test-es5-react-mocha": "jsonlint -q .eslintrc-es5-react-mocha && eslint -c .eslintrc-es5-react-mocha test-files/es5-react-mocha.js",
+    "test-es6-react-mocha": "jsonlint -q .eslintrc-es6-react-mocha && eslint -c .eslintrc-es6-react-mocha test-files/es6-react-mocha.js",
+    "test": "npm run test-base && npm run test-react-base && npm run test-es5 && npm run test-es6 && npm run test-es5-react && npm run test-es6-react && npm run test-es5-mocha && npm run test-es6-mocha && npm run test-es5-react-mocha && npm run test-es6-react-mocha"
   },
   "repository": {
     "type": "git",
