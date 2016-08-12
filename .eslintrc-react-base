@@ -39,7 +39,7 @@
     "react/jsx-handler-names": [
       2,
       {
-        "eventHandlerPrefix": "handler",
+        "eventHandlerPrefix": "on",
         "eventHandlerPropPrefix": "on"
       }
     ],
