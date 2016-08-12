@@ -1,6 +1,6 @@
 {
   "name": "eslintrc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A collection of my common eslint configurations",
   "main": "index.js",
   "scripts": {
