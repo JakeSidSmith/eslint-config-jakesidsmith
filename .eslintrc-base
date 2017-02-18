@@ -178,7 +178,6 @@
     "no-func-assign": 2,
     "new-parens": 2,
     "no-extra-semi": 2,
-    "no-duplicate-imports": 2,
-    "no-fallthrough": 2
+    "no-duplicate-imports": 2
   }
 }
