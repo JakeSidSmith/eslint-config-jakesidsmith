@@ -19,7 +19,7 @@ class App extends Component {
       </Header>
     );
   }
-};
+}
 
 ReactDOM.render(
   <App />,
