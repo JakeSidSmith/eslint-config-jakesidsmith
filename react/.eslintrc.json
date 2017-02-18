@@ -1,4 +1,7 @@
 {
+  "extends": [
+    "../base/.eslintrc.json"
+  ],
   "plugins": [
     "react"
   ],

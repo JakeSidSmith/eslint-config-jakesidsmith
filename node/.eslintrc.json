@@ -1,5 +1,7 @@
 {
-  "extends": "../base/.eslintrc.json",
+  "extends": [
+    "../base/.eslintrc.json"
+  ],
   "env": {
     "node": true
   }
