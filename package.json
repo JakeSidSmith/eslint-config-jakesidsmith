@@ -1,6 +1,6 @@
 {
   "name": "eslintrc",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A collection of my common eslint configurations",
   "main": ".eslintrc.json",
   "scripts": {
