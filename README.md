@@ -78,9 +78,7 @@ And run it with
 
 ```shell
 npm run eslint
-
 # and or
-
 npm run eslint-tests
 ```
 
