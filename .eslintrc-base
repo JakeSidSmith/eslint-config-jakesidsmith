@@ -154,6 +154,13 @@
     "no-spaced-func": 2,
     "no-func-assign": 2,
     "new-parens": 2,
-    "no-extra-semi": 2
+    "no-extra-semi": 2,
+    "semi-spacing": [
+      2,
+      {
+        "before": false,
+        "after": true
+      }
+    ]
   }
 }
