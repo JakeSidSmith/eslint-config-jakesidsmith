@@ -2,7 +2,7 @@
   "name": "eslintrc",
   "version": "1.0.0",
   "description": "A collection of my common eslint configurations",
-  "main": ".eslintrc.json",
+  "main": "./default/.eslintrc.json",
   "scripts": {
     "test-default": "eslint -c ./default/.eslintrc.json test-files/react-es6.js",
     "test-base": "eslint -c ./base/.eslintrc.json test-files/base.js",
