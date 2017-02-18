@@ -9,7 +9,7 @@
     "test-es6": "eslint -c ./es6/.eslintrc.json test-files/es6.js",
     "test-react": "eslint -c ./react/.eslintrc.json test-files/react.js",
     "test-react-native": "eslint -c ./react-native/.eslintrc.json test-files/react-es6.js",
-    "test-all": "eslint -c .eslintrc-test-all.json test-files/es6-react.js",
+    "test-all": "eslint -c .eslintrc-test-all.json test-files/react-es6.js",
     "lint": "find . -path ./node_modules -prune -o -type f -name '*.json' -print | xargs -I {} jsonlint -q {}",
     "test": "npm run lint && npm run test-default && npm run test-base && npm run test-es6 && npm run test-react && npm run test-react-native && npm run test-all"
   },
