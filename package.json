@@ -1,20 +1,17 @@
 {
   "name": "eslintrc",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A collection of my common eslint configurations",
-  "main": "index.js",
+  "main": "./default/.eslintrc.json",
   "scripts": {
-    "test-base": "jsonlint -q .eslintrc-base",
-    "test-react-base": "jsonlint -q .eslintrc-react-base",
-    "test-es5": "jsonlint -q .eslintrc-es5 && eslint -c .eslintrc-es5 test-files/es5.js",
-    "test-es6": "jsonlint -q .eslintrc-es6 && eslint -c .eslintrc-es6 test-files/es6.js",
-    "test-es5-react": "jsonlint -q .eslintrc-es5-react && eslint -c .eslintrc-es5-react test-files/es5-react.js",
-    "test-es6-react": "jsonlint -q .eslintrc-es6-react && eslint -c .eslintrc-es6-react test-files/es6-react.js",
-    "test-es5-mocha": "jsonlint -q .eslintrc-es5-mocha && eslint -c .eslintrc-es5-mocha test-files/es5-mocha.js",
-    "test-es6-mocha": "jsonlint -q .eslintrc-es6-mocha && eslint -c .eslintrc-es6-mocha test-files/es6-mocha.js",
-    "test-es5-react-mocha": "jsonlint -q .eslintrc-es5-react-mocha && eslint -c .eslintrc-es5-react-mocha test-files/es5-react-mocha.js",
-    "test-es6-react-mocha": "jsonlint -q .eslintrc-es6-react-mocha && eslint -c .eslintrc-es6-react-mocha test-files/es6-react-mocha.js",
-    "test": "npm run test-base && npm run test-react-base && npm run test-es5 && npm run test-es6 && npm run test-es5-react && npm run test-es6-react && npm run test-es5-mocha && npm run test-es6-mocha && npm run test-es5-react-mocha && npm run test-es6-react-mocha"
+    "test-default": "eslint -c ./default/.eslintrc.json test-files/react-es6.js",
+    "test-base": "eslint -c ./base/.eslintrc.json test-files/base.js",
+    "test-es6": "eslint -c ./es6/.eslintrc.json test-files/es6.js",
+    "test-react": "eslint -c ./react/.eslintrc.json test-files/react.js",
+    "test-react-native": "eslint -c ./react-native/.eslintrc.json test-files/react-es6.js",
+    "test-all": "eslint -c .eslintrc-test-all.json test-files/react-es6.js",
+    "lint": "find . -path ./node_modules -prune -o -type f -name '*.json' -print | xargs -I {} jsonlint -q {}",
+    "test": "npm run lint && npm run test-default && npm run test-base && npm run test-es6 && npm run test-react && npm run test-react-native && npm run test-all"
   },
   "repository": {
     "type": "git",
@@ -32,8 +29,10 @@
   },
   "homepage": "https://github.com/jakesidsmith/eslintrc#readme",
   "dependencies": {
+    "babel-eslint": "7.1.1",
     "eslint": "3.15.0",
-    "eslint-plugin-react": "6.10.0"
+    "eslint-plugin-react": "6.10.0",
+    "eslint-plugin-react-native": "2.2.1"
   },
   "devDependencies": {
     "jsonlint": "1.6.2"

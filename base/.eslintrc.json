@@ -1,8 +1,4 @@
 {
-  "env": {
-    "browser": true,
-    "commonjs": true
-  },
   "parserOptions": {
     "ecmaVersion": 5
   },
@@ -136,6 +132,12 @@
       2,
       "inside"
     ],
+    "no-duplicate-imports": [
+      2,
+      {
+        "includeExports": true
+      }
+    ],
     "space-unary-ops": 2,
     "space-infix-ops": 2,
     "no-mixed-spaces-and-tabs": 2,
@@ -177,7 +179,6 @@
     "no-spaced-func": 2,
     "no-func-assign": 2,
     "new-parens": 2,
-    "no-extra-semi": 2,
-    "no-duplicate-imports": 2
+    "no-extra-semi": 2
   }
 }

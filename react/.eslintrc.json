@@ -1,12 +1,15 @@
 {
+  "extends": [
+    "../base/.eslintrc.json"
+  ],
+  "plugins": [
+    "react"
+  ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     }
   },
-  "plugins": [
-    "react"
-  ],
   "rules": {
     "jsx-quotes": [
       2,

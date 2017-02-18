@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "../base/.eslintrc.json",
+    "../react/.eslintrc.json",
+    "../es6/.eslintrc.json"
+  ],
+  "plugins": [
+    "react-native"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "react-native/no-unused-styles": 2,
+    "react-native/no-inline-styles": 2
+  }
+}

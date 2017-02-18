@@ -4,8 +4,6 @@
 
   /* Comment */
 
-  var fs = require('fs');
-
   function isThisNice (input) {
     switch (input) {
       case 'nice':
@@ -15,10 +13,14 @@
     }
   }
 
+  function doSomething (arg) {
+    return arg + 1;
+  }
+
   var nice = 'nice';
 
   if (isThisNice(nice) === true) {
-    console.log('It is very nice');
+    doSomething(1);
   } else {
     throw new Error('That shirt is nasty');
   }
@@ -28,6 +30,7 @@
     foo: 'bar'
   };
 
-  fs.doNothing(arr, obj);
+  arr.push(6);
+  obj.bar = 'foo';
 
 })();
