@@ -15,7 +15,15 @@
       2,
       2,
       {
-        "SwitchCase": 1
+        "SwitchCase": 1,
+        "VariableDeclarator": 1,
+        "outerIIFEBody": 1,
+        "MemberExpression": 1,
+        "FunctionDeclaration": {"body": 1, "parameters": 1},
+        "FunctionExpression": {"body": 1, "parameters": 1},
+        "CallExpression": {"arguments": 1},
+        "ArrayExpression": 1,
+        "ObjectExpression": 1
       }
     ],
     "quotes": [
@@ -30,6 +38,13 @@
       2,
       "always"
     ],
+    "semi-spacing": [
+      2,
+      {
+        "before": false,
+        "after": true
+      }
+    ],
     "comma-style": [
       2,
       "last"
@@ -40,6 +55,10 @@
         "before": false,
         "after": true
       }
+    ],
+    "comma-dangle": [
+      2,
+      "never"
     ],
     "no-multiple-empty-lines": [
       2,
@@ -113,6 +132,10 @@
       2,
       "always"
     ],
+    "wrap-iife": [
+      2,
+      "inside"
+    ],
     "space-unary-ops": 2,
     "space-infix-ops": 2,
     "no-mixed-spaces-and-tabs": 2,
@@ -153,6 +176,8 @@
     "eol-last": 2,
     "no-spaced-func": 2,
     "no-func-assign": 2,
-    "new-parens": 2
+    "new-parens": 2,
+    "no-extra-semi": 2,
+    "no-duplicate-imports": 2
   }
 }
