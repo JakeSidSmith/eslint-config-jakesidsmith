@@ -1,21 +1,21 @@
-# eslintrc [![CircleCI](https://circleci.com/gh/JakeSidSmith/eslintrc.svg?style=svg)](https://circleci.com/gh/JakeSidSmith/eslintrc)
+# eslint-config-jakesidsmith [![CircleCI](https://circleci.com/gh/JakeSidSmith/eslint-config-jakesidsmith.svg?style=svg)](https://circleci.com/gh/JakeSidSmith/eslint-config-jakesidsmith)
 A collection of my common eslint configurations
 
 ## Install
 
-Check the [releases](https://github.com/JakeSidSmith/eslintrc/releases) for the latest version.
+Check the [releases](https://github.com/JakeSidSmith/eslint-config-jakesidsmith/releases) for the latest version.
 
-Add eslintrc to your package.json. This can easily be done with the following command
+Add eslint-config-jakesidsmith to your package.json. This can easily be done with the following command
 
 ```shell
-npm install https://github.com/JakeSidSmith/eslintrc#v1.0.0 --save-dev
+npm install https://github.com/JakeSidSmith/eslint-config-jakesidsmith#v2.0.0 --save-dev
 ```
 
 Or manually add this to the package.json
 
 ```json
 "devDependencies": {
-  "eslintrc": "git+https://github.com/JakeSidSmith/eslintrc.git#v1.0.0"
+  "eslint-config-jakesidsmith": "git+https://github.com/JakeSidSmith/eslint-config-jakesidsmith.git#v2.0.0"
 }
 ```
 
@@ -28,7 +28,7 @@ Default config (ES6, React & CommonJS)
 ```json
 {
   "extends": [
-    "eslintrc/default"
+    "jakesidsmith/default"
   ]
 }
 ```
@@ -38,8 +38,8 @@ Custom config
 ```json
 {
   "extends": [
-    "eslintrc/node",
-    "eslintrc/es6"
+    "jakesidsmith/node",
+    "jakesidsmith/es6"
   ]
 }
 ```
