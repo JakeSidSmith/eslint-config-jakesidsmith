@@ -32,10 +32,10 @@
   },
   "homepage": "https://github.com/jakesidsmith/eslintrc#readme",
   "dependencies": {
-    "eslint": "=2.8.0",
-    "eslint-plugin-react": "=5.0.1"
+    "eslint": "3.15.0",
+    "eslint-plugin-react": "6.10.0"
   },
   "devDependencies": {
-    "jsonlint": "=1.6.2"
+    "jsonlint": "1.6.2"
   }
 }
