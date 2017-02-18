@@ -120,6 +120,10 @@
       2,
       "always"
     ],
+    "wrap-iife": [
+      2,
+      "inside"
+    ],
     "space-unary-ops": 2,
     "space-infix-ops": 2,
     "no-mixed-spaces-and-tabs": 2,
