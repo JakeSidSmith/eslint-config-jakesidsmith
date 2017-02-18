@@ -161,6 +161,7 @@
     "no-spaced-func": 2,
     "no-func-assign": 2,
     "new-parens": 2,
-    "no-extra-semi": 2
+    "no-extra-semi": 2,
+    "no-duplicate-imports": 2
   }
 }
