@@ -8,14 +8,14 @@ Check the [releases](https://github.com/JakeSidSmith/eslint-config-jakesidsmith/
 Add eslint-config-jakesidsmith to your package.json. This can easily be done with the following command
 
 ```shell
-npm install https://github.com/JakeSidSmith/eslint-config-jakesidsmith#v2.0.0 --save-dev
+npm install https://github.com/JakeSidSmith/eslint-config-jakesidsmith#v2.1.0 --save-dev
 ```
 
 Or manually add this to the package.json
 
 ```json
 "devDependencies": {
-  "eslint-config-jakesidsmith": "git+https://github.com/JakeSidSmith/eslint-config-jakesidsmith.git#v2.0.0"
+  "eslint-config-jakesidsmith": "git+https://github.com/JakeSidSmith/eslint-config-jakesidsmith.git#v2.1.0"
 }
 ```
 
