@@ -1,4 +1,4 @@
-# eslintrc
+# eslintrc [![CircleCI](https://circleci.com/gh/JakeSidSmith/eslintrc.svg?style=svg)](https://circleci.com/gh/JakeSidSmith/eslintrc)
 A collection of my common eslint configurations
 
 ## Install
