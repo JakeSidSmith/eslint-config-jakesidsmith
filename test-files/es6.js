@@ -2,6 +2,8 @@
 
 import fs from 'fs';
 
+fs.doSomething();
+
 const isThisNice = (input) => {
   switch (input) {
     case 'nice':
@@ -13,8 +15,10 @@ const isThisNice = (input) => {
 
 const nice = 'nice';
 
+const doSomething = (arg) => arg + 1;
+
 if (isThisNice(nice) === true) {
-  console.log('It is very nice');
+  doSomething(1);
 } else {
   throw new Error('That shirt is nasty');
 }
@@ -24,4 +28,5 @@ let obj = {
   foo: 'bar'
 };
 
-fs.doNothing(arr, obj);
+arr.push(6);
+obj.bar = 'foo';

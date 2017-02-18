@@ -1,27 +1,20 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import { AppRegistry, Text } from 'react-native';
 
 const Header = () => (
-  <h1 {...this.props}>
+  <Text {...this.props}>
     {this.props.children}
-  </h1>
+  </Text>
 );
 
 class App extends Component {
   render () {
     return (
       <Header className="my-class" awesome>
-        Hello, world!
-        <span />
-        <span
-          prop
-        />
+        Hello, World!
       </Header>
     );
   }
 }
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('app')
-);
+AppRegistry.registerComponent('App', () => App);
