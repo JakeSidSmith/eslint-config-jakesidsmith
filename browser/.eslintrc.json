@@ -15,6 +15,7 @@
     "clearInterval": false,
     "alert": false,
     "requestAnimationFrame": false,
+    "cancelAnimationFrame": false,
     "localStorage": false,
     "sessionStorage": false
   }
