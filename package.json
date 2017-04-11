@@ -38,6 +38,6 @@
     "jsonlint": "1.6.2"
   },
   "peerDependencies": {
-    "eslint": ">=3.12.x < 4.x.x"
+    "eslint": ">=3.19.x < 4.x.x"
   }
 }
