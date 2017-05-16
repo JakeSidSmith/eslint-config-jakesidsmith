@@ -29,10 +29,10 @@
   },
   "homepage": "https://github.com/jakesidsmith/eslint-config-jakesidsmith#readme",
   "dependencies": {
-    "babel-eslint": "7.1.1",
-    "eslint": "3.15.0",
-    "eslint-plugin-react": "6.10.0",
-    "eslint-plugin-react-native": "2.2.1"
+    "babel-eslint": "7.2.3",
+    "eslint": "3.19.0",
+    "eslint-plugin-react": "7.0.1",
+    "eslint-plugin-react-native": "2.3.2"
   },
   "devDependencies": {
     "jsonlint": "1.6.2"
