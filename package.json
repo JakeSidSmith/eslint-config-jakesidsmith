@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jakesidsmith",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A collection of my common eslint configurations",
   "main": "./default/.eslintrc.json",
   "scripts": {
@@ -30,11 +30,14 @@
   "homepage": "https://github.com/jakesidsmith/eslint-config-jakesidsmith#readme",
   "dependencies": {
     "babel-eslint": "7.1.1",
-    "eslint": "3.15.0",
     "eslint-plugin-react": "6.10.0",
     "eslint-plugin-react-native": "2.2.1"
   },
   "devDependencies": {
+    "eslint": "3.19.0",
     "jsonlint": "1.6.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.19.x < 4.x.x"
   }
 }
