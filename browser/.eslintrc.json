@@ -18,6 +18,7 @@
     "cancelAnimationFrame": false,
     "localStorage": false,
     "sessionStorage": false,
-    "getComputedStyle": false
+    "getComputedStyle": false,
+    "XMLHttpRequest": false
   }
 }
